@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:56316/",
+      "applicationUrl": "http://localhost:56316/Cars/Create",
       "sslPort": 0
     }
   },

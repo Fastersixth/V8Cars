@@ -1,0 +1,20 @@
+﻿@model CarsIndexVM[]
+@{
+    ViewBag.Title = "Start";
+}
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            @if(item.ShowAsFast)
+            {
+            <p style="color:blue">@item.Brand</p>
+            }
+            else
+            {
+            <p>@item.Brand</p>
+            }
+        </li>
+    }
+</ul>
